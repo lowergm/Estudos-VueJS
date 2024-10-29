@@ -1,30 +1,22 @@
 <template>
 	<div>
-		<button @click="this.dec">
-          -
+		<button @click="contagem--">
+      -
     </button>
-		<span>{{count}}</span>
-		<button @click="this.inc">
-          +
+		<p><span>{{contagem}}</span></p>
+		<button @click="contagem++">
+      +
     </button>
 	</div>
 </template>
 
 <script>
 	export default {
-		tag: 'my-counter',
-		name: 'MyCounter',
+		tag: 'app-contador',
+		name: 'AppContador',
 		data() {
-			return { count: 0 }
+			return { contagem: 0 }
 		},
-		methods: {
-			inc: function() {
-				this.count++;
-			},
-			dec: function() {
-				this.count--;
-			}
-		}
 	};
 </script>
 
