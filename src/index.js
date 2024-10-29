@@ -1,4 +1,4 @@
 import { defineCustomElement } from 'vue'
-import MyCounter from "./index.ce.vue";
+import AppContador from "./contador.vue";
 
-customElements.define('my-counter', defineCustomElement(MyCounter));
+customElements.define('app-contador', defineCustomElement(AppContador));
