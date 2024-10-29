@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/lowergm.cevue-m2ux8b4k",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve t9VjACktYCA4hGdg6neb --open"
+  }
+}
